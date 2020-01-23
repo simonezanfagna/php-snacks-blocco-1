@@ -4,7 +4,7 @@ function numeriRandom($min, $max){
   $numeri = [];
   while (count($numeri) < 15) {
     $numero = rand($min,$max);
-    if (!in_array($numeri, $numero)) {
+    if (!in_array($numero, $numeri)) {
       array_push($numeri, $numero);
     }
   }
